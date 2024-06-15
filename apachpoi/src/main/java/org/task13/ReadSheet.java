@@ -9,6 +9,9 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+
+// Read the Excel Sheet Display the output in console
+
 public class ReadSheet {
 
 	public static void main(String[] args) {
@@ -60,3 +63,16 @@ public class ReadSheet {
 
 	}
 }
+
+
+
+/* 			The Output of Program is
+ 
+ *  
+ *  		Name	    Age	Email	
+ *  		jhon Deo	30	jhon@test.com	
+ *  		bob smith	35	jacky@example.com	
+ *  		swapnil  	37	swapnil@example.com	
+  
+  
+ */
