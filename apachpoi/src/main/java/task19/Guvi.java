@@ -16,6 +16,9 @@ public class Guvi {
 		//Open Url
 		driver.get("https://www.guvi.in/register/");
 		
+		//maximizes the window
+				driver.manage().window().maximize();
+		
 		//Enter the Name of person
 		driver.findElement(By.xpath("//input[@id='name']")).sendKeys("Raswanth");
 		

@@ -19,6 +19,10 @@ public class DragAndDrop {
 		//open Website
 		driver.get("https://jqueryui.com/droppable/");
 		
+		
+		//maximizes the window
+				driver.manage().window().maximize();
+		
 		//Find the Frame and Get the frame Web element
 		WebElement frame=driver.findElement(By.xpath("//iframe[@class='demo-frame']"));
 		

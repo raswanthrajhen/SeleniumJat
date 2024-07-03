@@ -17,6 +17,9 @@ public class FaceBook {
 		driver.get("https://www.facebook.com/");
 		
 		
+		//maximizes the window
+				driver.manage().window().maximize();
+		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		
